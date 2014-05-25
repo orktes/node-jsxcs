@@ -1,6 +1,6 @@
 {
   "name": "jsxcs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript Code Style checker with JSX (React) support",
   "main": "index.js",
   "bin": {
