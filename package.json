@@ -1,0 +1,26 @@
+{
+  "name": "jsxcs",
+  "version": "0.0.1",
+  "description": "JavaScript Code Style checker with JSX (React) support",
+  "main": "index.js",
+  "dependencies": {
+    "jscs": "~1.4.5",
+    "react-tools": "~0.10.0",
+    "vow": "~0.4.3",
+    "vow-fs": "~0.3.1",
+    "commander": "~2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orktes/node-jsxcs.git"
+  },
+  "author": "Jaakko Lukkari <jaakko.lukkari@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orktes/node-jsxcs/issues"
+  }
+}
