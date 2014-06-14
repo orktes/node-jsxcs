@@ -3,7 +3,7 @@
 Wrapper around [jscs](https://github.com/mdevils/node-jscs) to allow running jscs for JSX files.
 
 ## How to install
-    npm install jsxcs
+    npm install jsxcs -g
 
 ## How to use
 See [jscs](https://github.com/mdevils/node-jscs) for guides.
