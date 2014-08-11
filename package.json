@@ -1,13 +1,13 @@
 {
   "name": "jsxcs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JavaScript Code Style checker with JSX (React) support",
   "main": "index.js",
   "bin": {
     "jsxcs": "./bin/jsxcs"
   },
   "dependencies": {
-    "jscs": "~1.4.5",
+    "jscs": "~1.5.9",
     "react-tools": "~0.10.0",
     "vow": "~0.4.3",
     "vow-fs": "~0.3.1",
