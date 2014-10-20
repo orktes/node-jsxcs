@@ -7,11 +7,11 @@
     "jsxcs": "./bin/jsxcs"
   },
   "dependencies": {
-    "jscs": "~1.5.9",
-    "react-tools": "~0.10.0",
+    "commander": "~2.3.0",
+    "jscs": "~1.7.0",
+    "react-tools": "~0.11.0",
     "vow": "~0.4.3",
     "vow-fs": "~0.3.1",
-    "commander": "~2.2.0"
   },
   "devDependencies": {},
   "scripts": {
