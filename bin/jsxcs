@@ -3,7 +3,7 @@ var cli = require('../lib/cli');
 
 
 /**
- * Command line implementation for JSCS.
+ * Command line implementation for JSXCS.
  *
  * Common usage case is:
  *
