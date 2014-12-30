@@ -1,3 +1,10 @@
+# Deprecated/Obsolete
+
+JSCS now (since v1.8.0) supports changing the esprima (ast parser) to esprima-fb (Facebooks version of esprima that can parse JSX). This makes JSXCS as a standalone tool obsolete. Same functionality (and more) can be achieved with jscs by using the following command. 
+
+    npm install jscs esprima-fb
+    jscs --esprima=esprima-fb
+
 # JSXCS
 
 Wrapper around [jscs](https://github.com/mdevils/node-jscs) to allow running jscs for JSX files.
