@@ -1,9 +1,23 @@
-# Deprecated/Obsolete
+# :warning: :bangbang: Deprecated/Obsolete :bangbang: :warning:
 
-JSCS now (since v1.8.0) supports changing the esprima (ast parser) to esprima-fb (Facebooks version of esprima that can parse JSX). This makes JSXCS as a standalone tool obsolete. Same functionality (and more) can be achieved with jscs by using the following command. 
+JSCS now (since v1.8.0) supports changing the esprima (ast parser) to esprima-fb (Facebooks version of esprima that can parse JSX). This makes JSXCS as a standalone tool obsolete. Same functionality (and more) can be achieved with jscs by using the following command.
 
     npm install jscs esprima-fb
     jscs --esprima=esprima-fb
+
+or
+
+    jscs --esprima="./node_module/esprima-fb"
+
+or in your .jscsrc
+
+    "esprima": "esprima-fb"
+
+**Also** include the following in your .jscsrc
+
+    "fileExtensions": [".js", ".jsx"]
+
+Read this [gist](https://gist.github.com/hahahana/3d5fa343f850f4c7fdc3) for more detailed instructions and information/background.
 
 # JSXCS
 
